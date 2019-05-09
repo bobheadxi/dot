@@ -1,0 +1,10 @@
+[user]
+  name =
+  email =
+
+[alias]
+	pub = push origin HEAD
+	cia = commit -am
+	ugh = git commit -a --amend --no-edit
+	reset-h = git reset HEAD^ --hard
+	reset-s = git reset HEAD^
