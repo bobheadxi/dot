@@ -1,10 +1,14 @@
 [user]
-  name =
-  email =
+	name = Robert Lin
+	email = robert@bobheadxi.dev
 
 [alias]
 	pub = push origin HEAD
 	cia = commit -am
 	ugh = git commit -a --amend --no-edit
-	reset-h = git reset HEAD^ --hard
-	reset-s = git reset HEAD^
+	reseth = git reset HEAD^ --hard
+	resets = git reset HEAD^
+	pullm = pull --no-edit
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/
