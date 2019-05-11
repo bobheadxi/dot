@@ -5,6 +5,7 @@
 [alias]
 	pub = push origin HEAD
 	cia = commit -am
+	amend = commit --amend
 	ugh = git commit -a --amend --no-edit
 	reseth = git reset HEAD^ --hard
 	resets = git reset HEAD^
