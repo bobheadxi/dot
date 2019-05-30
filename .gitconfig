@@ -3,13 +3,15 @@
 	email = robert@bobheadxi.dev
 
 [alias]
-	pub = push origin HEAD
-	cia = commit -am
-	amend = commit --amend
-	ugh = git commit -a --amend --no-edit
-	reseth = git reset HEAD^ --hard
-	resets = git reset HEAD^
-	pullm = pull --no-edit
+        pub = push origin HEAD
+        puf = push fork HEAD
+        cia = commit -am
+        ugh = commit -a --amend --no-edit
+        reseth = reset HEAD^ --hard
+        resets = reset HEAD^
+        pullm = pull --no-edit
+        amend = commit --amend
+        hash = rev-parse HEAD
 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
