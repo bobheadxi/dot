@@ -6,6 +6,7 @@
         st = status
         pub = push origin HEAD
         puf = push fork HEAD
+	ci = commit -m
         cia = commit -am
         ugh = commit -a --amend --no-edit
         reseth = reset HEAD^ --hard
