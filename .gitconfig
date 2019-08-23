@@ -3,6 +3,7 @@
 	email = robert@bobheadxi.dev
 
 [alias]
+        st = status
         pub = push origin HEAD
         puf = push fork HEAD
         cia = commit -am
