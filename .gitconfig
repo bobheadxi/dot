@@ -14,6 +14,7 @@
         pullm = pull --no-edit
         amend = commit --amend
         hash = rev-parse HEAD
+	co = checkout
 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
